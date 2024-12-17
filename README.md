@@ -1,3 +1,14 @@
-# hw1
-# This is multi thread server and client code
-# Server calculate String from client and send result to client and save result as txt file.
+# Multithreaded Server & Client Program
+### 개요
+* 이 프로젝트는 자바로 구현된 멀티쓰레드 서버와 클라이언트입니다.
+* 서버는 다수의 클라이언트와 동시에 연결하여 수식을 처리하고 결과를 반환합니다.
+
+### 주요 기능
+#### 1. 멀티쓰레드 서버
+* 여러 클라이언트를 동시에 처리합니다.
+* 클라이언트가 전송한 수식을 계산하고 결과를 반환합니다.
+* 연산 결과를 calculate.txt 파일에 저장합니다.
+#### 2. 클라이언트
+* 서버에 접속하고 수식을 전송합니다.
+* 서버로부터 계산 결과를 수신합니다.
+* bye 입력 시 접속을 종료합니다.
